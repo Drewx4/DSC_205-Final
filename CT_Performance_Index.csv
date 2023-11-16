@@ -1,0 +1,191 @@
+School Year,District Name,Category,Student Group,ELACount,ELAPerformanceIndex,MathCount,MathPerformanceIndex,ScienceCount,SciencePerformanceIndex
+2014-2015,State of Connecticut,All Students,State,267156,67.9,266482,59.3,122306,56.5
+2014-2015,State of Connecticut,English Language Learners (EL),English Learners,18986,50.7,18999,44,7698,36.5
+2014-2015,State of Connecticut,English Language Learners (EL),Not English Learners,248170,69.2,247483,60.5,114608,57.9
+2014-2015,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,123879,56.7,123538,47.8,55606,45.9
+2014-2015,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,143277,77.6,142944,69.3,66700,65.4
+2014-2015,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,99651,57,99383,47.8,44421,45.6
+2014-2015,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,167505,74.4,167099,66.2,77885,62.7
+2014-2015,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,734,62.5,735,53.2,338,53
+2014-2015,State of Connecticut,Race/Ethnicity,Asian,12863,78.4,12870,73.6,5553,64.2
+2014-2015,State of Connecticut,Race/Ethnicity,Black or African American,33794,56.2,33694,45.8,15756,44.1
+2014-2015,State of Connecticut,Race/Ethnicity,Hispanic or Latino,56716,57.3,56615,48,25170,45.5
+2014-2015,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,220,68.8,219,58.8,109,52.3
+2014-2015,State of Connecticut,Race/Ethnicity,Two or More Races,6493,69.6,6478,60.6,2702,57.7
+2014-2015,State of Connecticut,Race/Ethnicity,White,156336,73.4,155871,65.1,72678,62.4
+2014-2015,State of Connecticut,Special Education Status (SWD),Students with Disabilities,41371,48.3,41203,40.6,19272,41.6
+2014-2015,State of Connecticut,Special Education Status (SWD),Students without Disabilities,225785,71.5,225279,62.7,103034,59.3
+2015-2016,State of Connecticut,All Students,State,271088,67.7,270487,61.4,118048,57.5
+2015-2016,State of Connecticut,English Language Learners (EL),English Learners,19204,51,19145,46,6938,38.1
+2015-2016,State of Connecticut,English Language Learners (EL),Not English Learners,251884,69,251342,62.5,111110,58.7
+2015-2016,State of Connecticut,Gender,Female,132089,70.2,131817,61.6,57798,57.7
+2015-2016,State of Connecticut,Gender,Male,138999,65.3,138670,61.2,60250,57.3
+2015-2016,State of Connecticut,Grade,3,38516,70,38447,63.5,N/A,N/A
+2015-2016,State of Connecticut,Grade,4,38087,72.2,38028,66.2,N/A,N/A
+2015-2016,State of Connecticut,Grade,5,38757,69.6,38682,64.6,38940,57.6
+2015-2016,State of Connecticut,Grade,6,38848,69.8,38742,61.4,N/A,N/A
+2015-2016,State of Connecticut,Grade,7,39848,68,39726,60.1,N/A,N/A
+2015-2016,State of Connecticut,Grade,8,39174,65.4,39008,58.7,39600,56.6
+2015-2016,State of Connecticut,Grade,10,N/A,N/A,N/A,N/A,39508,58.3
+2015-2016,State of Connecticut,Grade,11,37858,58.6,37854,55.2,N/A,N/A
+2015-2016,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,128050,56.7,127623,49.9,54083,47
+2015-2016,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,143038,77.5,142864,71.6,63965,66.4
+2015-2016,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,103965,57,103649,49.8,43613,46.9
+2015-2016,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,167123,74.4,166838,68.6,74435,63.7
+2015-2016,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Free,90860,56,90560,48.8,37795,45.9
+2015-2016,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Non-Subsidized,167123,74.4,166838,68.6,74435,63.7
+2015-2016,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Reduced,13105,63.3,13089,56.7,5818,53.2
+2015-2016,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,702,63.8,701,56.8,326,52.8
+2015-2016,State of Connecticut,Race/Ethnicity,Asian,13403,78.2,13385,76.2,5742,66.1
+2015-2016,State of Connecticut,Race/Ethnicity,Black or African American,34193,55.7,34100,47.7,14982,44.7
+2015-2016,State of Connecticut,Race/Ethnicity,Hispanic or Latino,59907,57.3,59734,50.2,24883,46.8
+2015-2016,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,245,68.1,245,62.3,111,55.7
+2015-2016,State of Connecticut,Race/Ethnicity,Two or More Races,7175,69.8,7165,63.1,2762,59.1
+2015-2016,State of Connecticut,Race/Ethnicity,White,155463,73.3,155157,67.3,69242,63.4
+2015-2016,State of Connecticut,Special Education Status (SWD),Students with Disabilities,42821,48.7,42573,42.4,18961,41.8
+2015-2016,State of Connecticut,Special Education Status (SWD),Students without Disabilities,228267,71.3,227914,64.9,99087,60.5
+2016-2017,State of Connecticut,All Students,State,272109,67.1,271376,62.2,118940,55.3
+2016-2017,State of Connecticut,English Language Learners (EL),English Learners,27620,53.1,27525,49.9,10420,40.6
+2016-2017,State of Connecticut,English Language Learners (EL),Not English Learners,244489,68.6,243851,63.5,108520,56.7
+2016-2017,State of Connecticut,Gender,Female,132608,69.6,132267,62.3,57692,55.3
+2016-2017,State of Connecticut,Gender,Male,139501,64.6,139109,62,61248,55.3
+2016-2017,State of Connecticut,Grade,3,37792,68.8,37716,63.9,N/A,N/A
+2016-2017,State of Connecticut,Grade,4,39000,71.5,38932,67.1,N/A,N/A
+2016-2017,State of Connecticut,Grade,5,38657,68.4,38573,65.5,38828,55.5
+2016-2017,State of Connecticut,Grade,6,39038,69.4,38892,62.6,N/A,N/A
+2016-2017,State of Connecticut,Grade,7,39199,67.3,39027,60.7,N/A,N/A
+2016-2017,State of Connecticut,Grade,8,40052,64.3,39870,59.4,40429,55.8
+2016-2017,State of Connecticut,Grade,10,N/A,N/A,N/A,N/A,39683,54.7
+2016-2017,State of Connecticut,Grade,11,38371,59.7,38366,56.2,N/A,N/A
+2016-2017,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,125080,55.9,124562,50.5,52949,45.2
+2016-2017,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,147029,76.5,146814,72.1,65991,63.4
+2016-2017,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,98541,56.2,98137,50.5,41380,45.2
+2016-2017,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,173568,73.2,173239,68.8,77560,60.7
+2016-2017,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Free,86121,55.2,85738,49.4,36068,44.3
+2016-2017,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Non-Subsidized,173568,73.2,173239,68.8,77560,60.7
+2016-2017,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Reduced,12420,62.8,12399,57.9,5312,51.4
+2016-2017,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,709,61.5,708,56.2,324,50.1
+2016-2017,State of Connecticut,Race/Ethnicity,Asian,13759,78.1,13744,77.7,5742,64.3
+2016-2017,State of Connecticut,Race/Ethnicity,Black or African American,34384,55.3,34250,48.4,15031,43.1
+2016-2017,State of Connecticut,Race/Ethnicity,Hispanic or Latino,63529,56.6,63271,51.1,26841,45.3
+2016-2017,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,255,67.9,254,63.3,117,56.3
+2016-2017,State of Connecticut,Race/Ethnicity,Two or More Races,7759,69.6,7739,64.2,3175,57.1
+2016-2017,State of Connecticut,Race/Ethnicity,White,151714,73,151410,68.4,67710,61.2
+2016-2017,State of Connecticut,Special Education Status (SWD),Students with Disabilities,39045,47,38817,41.6,17521,40.5
+2016-2017,State of Connecticut,Special Education Status (SWD),Students without Disabilities,233064,70.4,232559,65.6,101419,57.9
+2017-2018,State of Connecticut,All Students,State,268097,67.6,267615,62.7,N/A,N/A
+2017-2018,State of Connecticut,English Language Learners (EL),English Learners,26909,54.5,26860,51.1,N/A,N/A
+2017-2018,State of Connecticut,English Language Learners (EL),Not English Learners,241188,69,240755,64,N/A,N/A
+2017-2018,State of Connecticut,Gender,Female,130751,70.2,130530,62.9,N/A,N/A
+2017-2018,State of Connecticut,Gender,Male,137336,65.1,137075,62.5,N/A,N/A
+2017-2018,State of Connecticut,Gender,Non-Binary,*,*,*,*,N/A,N/A
+2017-2018,State of Connecticut,Grade,3,36875,69.7,36824,64.3,N/A,N/A
+2017-2018,State of Connecticut,Grade,4,37843,72.1,37782,67.8,N/A,N/A
+2017-2018,State of Connecticut,Grade,5,39102,69.8,39046,66.7,N/A,N/A
+2017-2018,State of Connecticut,Grade,6,38565,69.5,38495,63,N/A,N/A
+2017-2018,State of Connecticut,Grade,7,38974,67.7,38857,61.2,N/A,N/A
+2017-2018,State of Connecticut,Grade,8,39146,65.9,39024,60.3,N/A,N/A
+2017-2018,State of Connecticut,Grade,11,37592,58.2,37587,55.7,N/A,N/A
+2017-2018,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,133462,57.5,133113,52,N/A,N/A
+2017-2018,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,134635,77.6,134502,73.3,N/A,N/A
+2017-2018,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,109967,57.8,109679,52.1,N/A,N/A
+2017-2018,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,158130,74.4,157936,70,N/A,N/A
+2017-2018,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Free,95736,56.9,95472,51.2,N/A,N/A
+2017-2018,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Non-Subsidized,158130,74.4,157936,70,N/A,N/A
+2017-2018,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Reduced,14231,63.9,14207,58.8,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,684,62.2,682,56.9,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,Asian,13449,78.9,13437,78.8,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,Black or African American,33956,56.5,33870,49.3,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,Hispanic or Latino,65237,57.6,65090,52.1,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,285,68.3,285,62.8,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,Two or More Races,8562,69.6,8549,64.5,N/A,N/A
+2017-2018,State of Connecticut,Race/Ethnicity,White,145924,73.5,145702,69,N/A,N/A
+2017-2018,State of Connecticut,Special Education Status (SWD),Students with Disabilities,40164,47.4,39988,41.7,N/A,N/A
+2017-2018,State of Connecticut,Special Education Status (SWD),Students without Disabilities,227933,71.1,227627,66.4,N/A,N/A
+2018-2019,State of Connecticut,All Students,State,265484,67.7,264912,63.1,114517,63.8
+2018-2019,State of Connecticut,English Language Learners (EL),English Learners,28548,55,28456,51.7,10914,51.4
+2018-2019,State of Connecticut,English Language Learners (EL),Not English Learners,236936,69.2,236456,64.4,103603,65.1
+2018-2019,State of Connecticut,Gender,Female,129732,70.2,129487,63.2,55953,64.4
+2018-2019,State of Connecticut,Gender,Male,135731,65.2,135404,62.9,58550,63.2
+2018-2019,State of Connecticut,Gender,Non-Binary,21,75,21,64.4,*,*
+2018-2019,State of Connecticut,Grade,3,35960,69.9,35906,64.9,N/A,N/A
+2018-2019,State of Connecticut,Grade,4,37146,72,37093,68.4,N/A,N/A
+2018-2019,State of Connecticut,Grade,5,38140,69.6,38054,67.3,38083,67.6
+2018-2019,State of Connecticut,Grade,6,39153,70.3,39076,63.5,N/A,N/A
+2018-2019,State of Connecticut,Grade,7,38790,68.4,38626,62.1,N/A,N/A
+2018-2019,State of Connecticut,Grade,8,39007,65.7,38870,60.4,38991,64.5
+2018-2019,State of Connecticut,Grade,11,37288,57.7,37287,55,37443,59.1
+2018-2019,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,138396,58.1,137933,52.7,57164,54.2
+2018-2019,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,127088,78.1,126979,74.4,57353,73.4
+2018-2019,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,115443,58.5,115058,52.7,47580,54.3
+2018-2019,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,150041,74.7,149854,71,66937,70.5
+2018-2019,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Free,97598,57.6,97244,51.7,39798,53.4
+2018-2019,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Non-Subsidized,150041,74.7,149854,71,66937,70.5
+2018-2019,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Reduced,17845,63.7,17814,58.6,7782,58.8
+2018-2019,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,684,62.3,681,57.5,276,58.2
+2018-2019,State of Connecticut,Race/Ethnicity,Asian,13496,79.5,13476,79.8,5795,76.3
+2018-2019,State of Connecticut,Race/Ethnicity,Black or African American,33765,56.8,33667,49.7,14392,50.8
+2018-2019,State of Connecticut,Race/Ethnicity,Hispanic or Latino,67382,58.1,67156,52.4,27512,53.8
+2018-2019,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,258,66.2,256,62.8,121,64.2
+2018-2019,State of Connecticut,Race/Ethnicity,Two or More Races,9227,70,9211,65,3600,66.1
+2018-2019,State of Connecticut,Race/Ethnicity,White,140672,73.6,140465,69.6,62821,69.9
+2018-2019,State of Connecticut,Special Education Status (SWD),Students with Disabilities,41270,47.4,41040,41.7,17183,46.6
+2018-2019,State of Connecticut,Special Education Status (SWD),Students without Disabilities,224214,71.4,223872,67,97334,66.8
+2021-2022,State of Connecticut,All Students,State,252821,64.2,251836,58.6,109121,61.4
+2021-2022,State of Connecticut,English Language Learners (EL),English Learners,30399,51.2,30284,46.8,11595,48.6
+2021-2022,State of Connecticut,English Language Learners (EL),Not English Learners,222422,66,221552,60.2,97526,62.9
+2021-2022,State of Connecticut,Gender,Female,123714,66.3,123240,58.1,53447,61.5
+2021-2022,State of Connecticut,Gender,Male,128974,62.2,128465,59.1,55590,61.3
+2021-2022,State of Connecticut,Gender,Non-Binary,133,70.7,131,58.8,84,71.4
+2021-2022,State of Connecticut,Grade,3,34676,66.2,34582,60.5,N/A,N/A
+2021-2022,State of Connecticut,Grade,4,35414,68.9,35326,64.1,N/A,N/A
+2021-2022,State of Connecticut,Grade,5,35764,66.5,35670,62.8,35693,65.8
+2021-2022,State of Connecticut,Grade,6,36155,66.6,35960,58.4,N/A,N/A
+2021-2022,State of Connecticut,Grade,7,37241,64.2,36998,57.4,N/A,N/A
+2021-2022,State of Connecticut,Grade,8,38100,61.9,37832,55,37922,61.7
+2021-2022,State of Connecticut,Grade,11,35471,55.3,35468,52.4,35506,56.6
+2021-2022,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,132402,54.2,131642,47.7,55034,51.3
+2021-2022,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,120419,75.2,120194,70.6,54087,71.7
+2021-2022,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,105350,54.4,104736,47.3,43716,51.4
+2021-2022,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,147471,71.2,147100,66.7,65405,68.1
+2021-2022,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Free,90811,53.6,90248,46.3,37438,50.6
+2021-2022,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Non-Subsidized,147471,71.2,147100,66.7,65405,68.1
+2021-2022,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Reduced,14539,59.7,14488,53.3,6278,56.1
+2021-2022,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,637,58.4,633,53,260,55.5
+2021-2022,State of Connecticut,Race/Ethnicity,Asian,13108,77.5,13087,76.6,5565,75.5
+2021-2022,State of Connecticut,Race/Ethnicity,Black or African American,31597,53.5,31410,44.9,13567,48.7
+2021-2022,State of Connecticut,Race/Ethnicity,Hispanic or Latino,71833,54.4,71464,47.6,29880,51.3
+2021-2022,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,247,62.5,247,57.6,103,58.9
+2021-2022,State of Connecticut,Race/Ethnicity,Two or More Races,10808,67,10763,60.9,4351,64
+2021-2022,State of Connecticut,Race/Ethnicity,White,124591,71,124232,66.4,55395,68.3
+2021-2022,State of Connecticut,Special Education Status (SWD),Students with Disabilities,41784,45,41391,38.8,17497,44
+2021-2022,State of Connecticut,Special Education Status (SWD),Students without Disabilities,211037,68,210445,62.5,91624,64.7
+2022-2023,State of Connecticut,All Students,State,251547,63.9,250666,59.7,108705,61.6
+2022-2023,State of Connecticut,English Language Learners (EL),English Learners,31197,50.9,31076,47.8,11925,47.5
+2022-2023,State of Connecticut,English Language Learners (EL),Not English Learners,220350,65.8,219590,61.4,96780,63.3
+2022-2023,State of Connecticut,Gender,Female,122787,65.8,122385,58.9,53051,61.7
+2022-2023,State of Connecticut,Gender,Male,128580,62.1,128103,60.4,55525,61.5
+2022-2023,State of Connecticut,Gender,Non-Binary,180,70,178,59.3,129,70.5
+2022-2023,State of Connecticut,Grade,3,35174,65.8,35098,62.1,N/A,N/A
+2022-2023,State of Connecticut,Grade,4,35237,69.2,35177,65.6,N/A,N/A
+2022-2023,State of Connecticut,Grade,5,35741,66.4,35667,64.4,35658,65.9
+2022-2023,State of Connecticut,Grade,6,35893,66.7,35742,59.7,N/A,N/A
+2022-2023,State of Connecticut,Grade,7,36294,64,36082,58.3,N/A,N/A
+2022-2023,State of Connecticut,Grade,8,37479,61.6,37175,56.1,37271,61
+2022-2023,State of Connecticut,Grade,11,35729,53.9,35725,51.9,35776,57.9
+2022-2023,State of Connecticut,"High Needs (F/R, EL or SWD)",High Needs,135052,54.1,134323,48.9,56420,51.1
+2022-2023,State of Connecticut,"High Needs (F/R, EL or SWD)",Not High Needs,116495,75.3,116343,72.2,52285,72.9
+2022-2023,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Eligible For Free Or Reduced Price Meals,108288,54.2,107698,48.5,45272,51.1
+2022-2023,State of Connecticut,Free/Reduced Price Meal Eligibility (2-level),Not Eligible For Free Or Reduced Price Meals,143259,71.3,142968,68.2,63433,69.1
+2022-2023,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Free,93466,53.3,92916,47.4,38788,50.1
+2022-2023,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Non-Subsidized,143259,71.3,142968,68.2,63433,69.1
+2022-2023,State of Connecticut,Free/Reduced Price Meal Eligibility (3-level),Reduced,14822,59.7,14782,54.8,6484,56.6
+2022-2023,State of Connecticut,Race/Ethnicity,American Indian or Alaska Native,624,57.3,623,52.1,268,56.3
+2022-2023,State of Connecticut,Race/Ethnicity,Asian,13121,77.1,13099,77.7,5700,76.6
+2022-2023,State of Connecticut,Race/Ethnicity,Black or African American,31493,53.3,31329,45.8,13684,48.3
+2022-2023,State of Connecticut,Race/Ethnicity,Hispanic or Latino,73332,54.1,72989,48.8,30766,50.9
+2022-2023,State of Connecticut,Race/Ethnicity,Native Hawaiian or Other Pacific Islander,240,60.5,239,56.5,118,59.3
+2022-2023,State of Connecticut,Race/Ethnicity,Two or More Races,11374,66.7,11327,62.1,4561,64.8
+2022-2023,State of Connecticut,Race/Ethnicity,White,121363,70.9,121060,67.7,53608,69.3
+2022-2023,State of Connecticut,Special Education Status (SWD),Students with Disabilities,43356,45.3,42951,40.1,18193,43.5
+2022-2023,State of Connecticut,Special Education Status (SWD),Students without Disabilities,208191,67.8,207715,63.7,90512,65.2
