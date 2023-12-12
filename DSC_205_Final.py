@@ -7,7 +7,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import datetime
-
 from matplotlib.dates import DateFormatter
 
 df2 = pd.read_csv('state_all.csv')
