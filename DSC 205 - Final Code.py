@@ -8,14 +8,11 @@ import datetime
 
 from matplotlib.dates import DateFormatter
 
-URL = 'https://raw.githubusercontent.com/Drewx4/DSC_205-Final/main/states_all.csv'
-df2 = pd.read_csv(URL)
+df2 = pd.read_csv('state_all.csv')
 
-URL2 = 'https://raw.githubusercontent.com/Drewx4/DSC_205-Final/main/CT_Performance_Index.csv'
-ct_df = pd.read_csv(URL2)
+ct_df = pd.read_csv('CT_Performance_Index.csv')
 
-URL3 = 'https://raw.githubusercontent.com/Drewx4/DSC_205-Final/main/school_scores.csv'
-GPA_df = pd.read_csv(URL3)
+GPA_df = pd.read_csv('school_scores.csv')
 
 ct = df2.loc[df2['STATE'] == 'CONNECTICUT']
 
