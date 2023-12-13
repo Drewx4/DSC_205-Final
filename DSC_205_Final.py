@@ -5,11 +5,14 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df2 = pd.read_csv('state_all.csv')
+URL = 'https://raw.githubusercontent.com/Drewx4/DSC_205-Final/main/states_all.csv'
+df2 = pd.read_csv(URL)
 
-ct_df = pd.read_csv('CT_Performance_Index.csv')
+URL2 = 'https://raw.githubusercontent.com/Drewx4/DSC_205-Final/main/CT_Performance_Index.csv'
+ct_df = pd.read_csv(URL2)
 
-GPA_df = pd.read_csv('school_scores.csv')
+URL3 = 'https://raw.githubusercontent.com/Drewx4/DSC_205-Final/main/school_scores.csv'
+GPA_df = pd.read_csv(URL3)
 
 ct = df2.loc[df2['STATE'] == 'CONNECTICUT']
 
