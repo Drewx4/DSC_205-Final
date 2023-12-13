@@ -13,13 +13,17 @@ GPA_df = pd.read_csv('school_scores.csv')
 
 ct = df2.loc[df2['STATE'] == 'CONNECTICUT']
 
-st.markdown('---')
+GPA_ct = GPA_df.loc[GPA_df['State.Code'] == 'CT']
 
-st.title("This will be the title, maybe something like 'Student Performance in CT and the US'")
-st.write('How has student performance changed in connecticut over time? And how does this compare to other states?')
 
 st.markdown('---')
 
+st.title('Student Performance in CT and the US')
+st.write('How has student performance changed in connecticut over time? And how does this compare to other states? What are some factors that affect performance?')
+
+st.markdown('---')
+
+st.subheader('\nAverage NAEP Test Scores for CT')
 st.write("Standardized test scores are one measure of student performance. The National Assessment of Educational Progress (NAEP) is a congressionally mandated large-scale assessment administered by the National Center for Education Statistics (NCES). Scores are reported for grades 4 and 8 in key subjects.")
 
 ct_math_4 = ct.dropna(subset='AVG_MATH_4_SCORE').sort_values(by=['YEAR'])
@@ -63,79 +67,9 @@ ax4.set_xticklabels(ct_reading_8['YEAR'], rotation=45, ha='right')
 
 fig.tight_layout(h_pad=2)
 
-st.subheader('\nAverage NAEP Test Scores for CT')
-
 container1 = st.container(border=True)
 if container1.checkbox('Show figure', value=True):
     st.pyplot(fig = fig)
-
-st.markdown('---')
-
-st.subheader('Student Performance Indices in CT over Time')
-st.write("Performance indices are another way schools measure performance of students in a subject area (i.e., ELA, Mathematics or Science) on state summative assessments. The Performance Index ranges from 0-100 and is reported for all students, and for students in each individual student group. Connecticut's ultimate goal for these indices is 75.")
-
-#Grab PI for all students, replace NaN's with 0, reset index next block
-all_students = ct_df.loc[ct_df['Category'] == 'All Students']
-all_students.replace(np.nan, 0)
-
-#Missing data during pandemic years, add two rows of zeros and change school year to gap years
-all_students = all_students.append(pd.Series(0, index=all_students.columns), ignore_index=True)
-all_students = all_students.append(pd.Series(0, index=all_students.columns), ignore_index=True)
-all_students['School Year'][7] = '2019-2020'
-all_students['School Year'][8] = '2020-2021'
-all_students = all_students.reset_index(drop=True)
-
-
-
-#Change performance index to floats and school year to strings
-all_students['ELAPerformanceIndex'] = all_students['ELAPerformanceIndex'].astype(float)
-all_students['MathPerformanceIndex'] = all_students['MathPerformanceIndex'].astype(float)
-all_students['SciencePerformanceIndex'] = all_students['SciencePerformanceIndex'].astype(float)
-
-all_students['School Year'] = all_students['School Year'].astype(str)
-
-all_students = all_students.sort_values(by=['School Year'])
-
-#Figure and subplots
-ct_per = plt.figure()
-ct_per.suptitle('CT Performance Indices from 2014 to 2023 for Key Subjects')
-
-ax1 = ct_per.add_subplot(2,2,1)
-
-ax1.bar(all_students['School Year'], all_students['ELAPerformanceIndex'])
-ax1.set_xlabel('School Year')
-ax1.set_ylabel('Performance Index')
-ax1.set_title('ELA Performance')
-ax1.set_ylim(0,100)
-ax1.xaxis.set_tick_params(labelsize='xx-small')
-ax1.set_xticklabels(all_students['School Year'], rotation=45, ha='right')
-
-ax2 = ct_per.add_subplot(2,2,2)
-
-ax2.bar(all_students['School Year'], all_students['MathPerformanceIndex'])
-ax2.set_xlabel('School Year')
-ax2.set_ylabel('Performance Index')
-ax2.set_title('Math Performance')
-ax2.set_ylim(0,100)
-ax2.xaxis.set_tick_params(labelsize='xx-small')
-ax2.set_xticklabels(all_students['School Year'], rotation=45, ha='right')
-
-ax3 = ct_per.add_subplot(2,2,3)
-
-ax3.bar(all_students['School Year'], all_students['MathPerformanceIndex'])
-ax3.set_xlabel('School Year')
-ax3.set_ylabel('Performance Index')
-ax3.set_title('Science Performance')
-ax3.set_ylim(0,100)
-ax3.xaxis.set_tick_params(labelsize='xx-small')
-ax3.set_xticklabels(all_students['School Year'], rotation=45, ha='right')
-
-ct_per.tight_layout(h_pad=2)
-
-st.pyplot(fig=ct_per)
-
-
-st.markdown('---')
 
 st.markdown('---')
 
@@ -209,6 +143,104 @@ st.pyplot(fig=fig2)
 
 st.markdown('---')
 
+st.subheader('Student Performance Indices in CT over Time')
+st.write("Performance indices are another way schools measure performance of students in a subject area (i.e., ELA, Mathematics or Science) on state summative assessments. The Performance Index ranges from 0-100 and is reported for all students, and for students in each individual student group. Connecticut's ultimate goal for these indices is 75.")
+
+#Grab PI for all students, replace NaN's with 0, reset index next block
+all_students = ct_df.loc[ct_df['Category'] == 'All Students']
+all_students.replace(np.nan, 0)
+
+#Missing data during pandemic years, add two rows of zeros and change school year to gap years
+all_students = all_students.append(pd.Series(0, index=all_students.columns), ignore_index=True)
+all_students = all_students.append(pd.Series(0, index=all_students.columns), ignore_index=True)
+all_students['School Year'][7] = '2019-2020'
+all_students['School Year'][8] = '2020-2021'
+all_students = all_students.reset_index(drop=True)
+
+
+
+#Change performance index to floats and school year to strings
+all_students['ELAPerformanceIndex'] = all_students['ELAPerformanceIndex'].astype(float)
+all_students['MathPerformanceIndex'] = all_students['MathPerformanceIndex'].astype(float)
+all_students['SciencePerformanceIndex'] = all_students['SciencePerformanceIndex'].astype(float)
+
+all_students['School Year'] = all_students['School Year'].astype(str)
+
+all_students = all_students.sort_values(by=['School Year'])
+
+#Figure and subplots
+ct_per = plt.figure()
+ct_per.suptitle('CT Performance Indices from 2014 to 2023 for Key Subjects')
+
+ax1 = ct_per.add_subplot(2,2,1)
+
+ax1.bar(all_students['School Year'], all_students['ELAPerformanceIndex'])
+ax1.set_xlabel('School Year')
+ax1.set_ylabel('Performance Index')
+ax1.set_title('ELA Performance')
+ax1.set_ylim(0,100)
+ax1.axhline(y=75, color='red')
+ax1.xaxis.set_tick_params(labelsize='xx-small')
+ax1.set_xticklabels(all_students['School Year'], rotation=45, ha='right')
+
+ax2 = ct_per.add_subplot(2,2,2)
+
+ax2.bar(all_students['School Year'], all_students['MathPerformanceIndex'])
+ax2.set_xlabel('School Year')
+ax2.set_ylabel('Performance Index')
+ax2.set_title('Math Performance')
+ax2.set_ylim(0,100)
+ax2.axhline(y=75, color='red')
+ax2.xaxis.set_tick_params(labelsize='xx-small')
+ax2.set_xticklabels(all_students['School Year'], rotation=45, ha='right')
+
+ax3 = ct_per.add_subplot(2,2,3)
+
+ax3.bar(all_students['School Year'], all_students['MathPerformanceIndex'])
+ax3.set_xlabel('School Year')
+ax3.set_ylabel('Performance Index')
+ax3.set_title('Science Performance')
+ax3.set_ylim(0,100)
+ax3.axhline(y=75, color='red')
+ax3.xaxis.set_tick_params(labelsize='xx-small')
+ax3.set_xticklabels(all_students['School Year'], rotation=45, ha='right')
+
+ct_per.tight_layout(h_pad=2)
+
+st.pyplot(fig=ct_per)
+
+
+st.markdown('---')
+st.subheader("How have GPA's in CT Changed over Time?")
+st.write("Grade Point Average is another measure of student performance. How did GPA's change from 2005 to 2015?")
+
+container4 = st.container(border=True)
+subject_input3 = container4.selectbox('Select a subject:', ['Arts/Music', 'English', 'Foreign Languages', 'Mathematics', 'Natural Sciences', 'Social Sciences/History'])
+
+subject_col = 'Academic Subjects.' + subject_input3 + '.Average GPA'
+
+fig6 = plt.figure()
+
+ax1 = fig6.add_subplot()
+ax1.bar(GPA_ct['Year'].astype(str), GPA_ct[subject_col])
+ax1.set_xlabel('Year')
+ax1.set_ylabel('Average ' + subject_input3 + ' GPA')
+ax1.set_title('Average ' + subject_input3 + ' GPA in CT from 2005 to 2015')
+ax1.set_ylim(2.5,4)
+ax1.xaxis.set_tick_params(labelsize='xx-small')
+ax1.set_xticklabels(GPA_ct['Year'], rotation=45, ha='right')
+
+containerB = st.container(border=True)
+if containerB.checkbox('Show plot A', value=True):
+    st.pyplot(fig=fig6)
+
+
+st.markdown('---')
+
+st.write("How do GPA distributions differ between subjects?")
+
+st.markdown('---')
+
 container3 = st.container(border=True)
 c4,c5 = container3.columns(2)
 
@@ -233,16 +265,21 @@ ax.legend()
 
 GPA_dist.text(.6, 0, 'Data displayed is from 2005 to 2015', bbox = dict(facecolor = 'gray', alpha = 0.5))
 
-st.pyplot(fig=GPA_dist)
+containerA = st.container(border=True)
+if containerA.checkbox('Show plot B', value=True):
+    st.pyplot(fig=GPA_dist)
+
 
 st.markdown('---')
+
+st.write("How do states compare year to year?")
 
 st.markdown('---')
 
 container2 = st.container(border=True)
 
 year_choice = container2.slider('Select a year:', 2005, 2015)
-subject_input3 = container2.selectbox('Select a subject:', ['Arts/Music', 'English', 'Foreign Languages', 'Mathematics', 'Natural Sciences', 'Social Sciences/History'])
+subject_input3 = container2.selectbox('Select subject:', ['Arts/Music', 'English', 'Foreign Languages', 'Mathematics', 'Natural Sciences', 'Social Sciences/History'])
 
 col3 = str('Academic Subjects.' + ' '.join(subject_input3.split(' ')) + '.Average GPA')
 
@@ -265,7 +302,59 @@ choro = folium.Choropleth(
           )
 choro.add_to(state_map)
 
-st_folium(state_map, width = 725)
+containerC = st.container(border=True)
+if containerC.checkbox('Show plot C', value=True):
+    st_folium(state_map, width = 725)
+
 
 
 st.markdown('---')
+
+st.subheader("What are some Factors that Affect Student Performance?")
+
+st.markdown('---')
+
+st.write("How does a family's income affect SAT scores?")
+
+fig7 = plt.figure()
+
+ax1 = fig7.add_subplot()
+
+data = [GPA_df['Family Income.Less than 20k.Math'],GPA_df['Family Income.Between 20-40k.Math'],
+        GPA_df['Family Income.Between 40-60k.Math'],GPA_df['Family Income.Between 60-80k.Math'],
+        GPA_df['Family Income.Between 80-100k.Math'],GPA_df['Family Income.More than 100k.Math']]
+
+ax1.boxplot(data)
+ax1.set_title('SAT Score Distribution by Income Bracket')
+ax1.set_xlabel('Reported Family Income')
+ax1.set_ylabel('Average SAT Score')
+ax1.set_ylim(200,700)
+labels=['<20k','20-40k','40-60k', '60-80k', '80-100k', '>100k']
+ax1.set_xticklabels(labels, rotation=45, ha='right')
+
+st.pyplot(fig=fig7)
+
+st.markdown('---')
+
+st.write("Is there a relationship between instruction expenditure and test scores?")
+
+container6 = st.container(border=True)
+c7,c8 = container6.columns(2)
+
+
+exp_input = container6.slider('Instruction expenditure range:', min_value=250000, max_value=44000000, value=(250000, 44000000))
+subject_input2 = c7.radio('Select subject: ', ['Reading', 'Math'])
+grade_input2 = c8.radio('Select grade level: ', ['4','8'])
+
+EXP_df = df2.loc[(df2['INSTRUCTION_EXPENDITURE'] >= exp_input[0]) & (df2['INSTRUCTION_EXPENDITURE'] < exp_input[1])]
+
+
+gr_sub_in = 'AVG_' + subject_input2.upper() +'_' + grade_input2 + '_SCORE'
+
+fig10, ax10 = plt.subplots()
+sns.regplot(x='INSTRUCTION_EXPENDITURE', y=gr_sub_in, data=EXP_df, ci=None)
+ax10.set_title('Instruction Expenditure vs Test Scores')
+
+container10 = st.container(border=True)
+if container10.checkbox('Show plot', value=True):
+    st.pyplot(fig10)
